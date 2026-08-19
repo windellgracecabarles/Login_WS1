@@ -1,75 +1,86 @@
-.body{
-    background: #fff5f7;
-    font-family:Arial,sans-serif;
-    margin:0;
-
+* {
+    box-sizing: border-box;
 }
-.login-box{
-    width:350px;
-    background-color:rgb(227, 179, 179);
-    margin:80px auto;
-    padding:30px;
-    border-radius:10px;
-    text-align:center;
-    box-shadow:0 3px 10px #625d5e;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5f7;
+}
+
+.login-box {
+    width: 350px;
+    background-color: white;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 3px 10px #d9b5bc;
     border-top: 5px solid #f47b91;
 }
-.logo{
-    width:90px;
-    height:90px;
-    border-radius:50%;
-    object-fit:cover;
-    margin-bottom:10px;
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
-h2{
-    color:#e85d75;
-    margin-bottom:5px;
+
+h2 {
+    color: #e85d75;
+    margin-bottom: 5px;
 }
-.p{
+
+p {
     color: #777;
 }
-form{
-    text-align:left;
-    display:block;
-    width:100%;
-}
-label{
-    display:block;
-    margin-top:15px;
-    margin-bottom:5px;
-    font-weight:bold;
-}
-.login, input{
-    display:flex;
-    width:300px;
-    padding:10px;
-    height:30px;
-    border: 1px solid #e5b5be;
-    border-radius:6px;
-    box-sizing:border-box;
-}
-.login, button{
-    display:block;
-    width:100px;
-    height:42px;
-    background:#cd677a;
-    color:white;
-    padding:10px;
-    border:none;
-    margin-top:20px;
-    border:none;
-    border-radius:6px;
-    cursor:pointer;
-    font-weight:bold;
-    gap:5px;
-    float:center;
-}
-form button:hover{
-    background:#8d3947;
-}
-a{
-    color:#e85d75;
-    text-decoration:none;
-    font-weight:bold;
 
+.login {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #e5b5be;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #f47b91;
+}
+
+button {
+    display: block;
+    width: 110px;
+    padding: 11px;
+    margin: 20px auto 0;
+    background-color: #f47b91;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #e85d75;
+}
+a {
+    color: #e85d75;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
 }
