@@ -3,32 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Pet Shop Register</title>
     <link rel="stylesheet" href="regi.css">
 </head>
 <body>
     <div class="register-box">
-        <img src="../logo.jpeg" class="logo">
+
+        <img src="../logo.jpeg" class="logo" alt="Pet Shop Logo">
+
         <h2>Create Account</h2>
-        <p>Register your Account</p>
+        <p>Join Paw Pet Shop!</p>
 
         <form class="register">
-             <label>Fullname</label>
-             <input type="text" id="fullname" placeholder="Enter full name" required>
-             <label>Username</label>
-             <input type="text" id="username" placeholder="Enter  username" required>
-             <label>Password</label>
-             <input type="password" id="regpassword" placeholder="Enter Password" required>
-             <label>Confirm Password</label>
-             <input type="password" id="confirmpasswod" placeholder="Confirm Password" required>
-             
-             <button type="submit">Register</button> 
-        </form>
-        <p>Already have an account?</p>
-        <a href="../login/login.html">Login here!</a>
 
+            <label for="fullname">Full Name</label>
+            <input 
+                type="text"
+                id="fullname"
+                placeholder="Enter full name"
+                required
+            >
+            <label for="username">Username</label>
+            <input 
+                type="text"
+                id="username"
+                placeholder="Enter username"
+                required
+            >
+            <label for="password">Password</label>
+            <input 
+                type="password"
+                id="password"
+                placeholder="Enter password"
+                required
+            >
+            <label for="confirm-password">Confirm Password</label>
+            <input 
+                type="password"
+                id="confirm-password"
+                placeholder="Confirm password"
+                required
+            >
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p>Already have an account?</p>
+
+        <a href="../login/login.html">Login here!</a>
     </div>
     <script src="../script.js"></script>
-    
 </body>
 </html>
